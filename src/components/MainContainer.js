@@ -7,7 +7,6 @@ export default function MainContainer() {
   return (
     <div>
       <ButtonList />
-
       <VideoContainer />
     </div>
   );
