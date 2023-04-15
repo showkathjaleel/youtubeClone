@@ -22,7 +22,7 @@ export default function Header() {
     }
 
     //make api call   
-    const timer = setTimeout(() => getSearchSuggestions(), 2000);
+    const timer = setTimeout(() => getSearchSuggestions(), 200);
     return () => {
       clearTimeout(timer);
     };
@@ -52,16 +52,16 @@ export default function Header() {
           />
         </div>
 
-        <div className="col-span-10">
+        <div className="pl-40 col-span-10 ">
           <input
             type="text"
-            className="w-1/2 border border-gray-300  rounded-l-full cursor-pointer"
+            className="w-1/2 h-8 border border-gray-300  rounded-l-full cursor-pointer "
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={()=>setShowSuggestions(true)}
             onBlur={()=>setShowSuggestions(false)}
           />
-          <button className="border border-gray-300 rounded-r-lg bg-gray-200">
+          <button className="border h-8 border-gray-300 rounded-r-lg bg-gray-200">
             Search
           </button>
         </div>

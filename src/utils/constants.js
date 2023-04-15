@@ -9,3 +9,5 @@ export const YOUTUBE_DATA_API_SPECIFIC_VIDEO_URL='https://youtube.googleapis.com
 
 export const YOUTUBE_SEARCH_API_KEY="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
 // Query
+
+export const LIVE_CHAT_COUNT=10;
