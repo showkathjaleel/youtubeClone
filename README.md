@@ -1,8 +1,9 @@
-YouTube Clone
+# Youtube Clone
 
 This is a YouTube clone project built with React and Redux. It allows users to search and view YouTube videos, add comments, and chat in real-time.
 
 #Live Demo
+
 https://main.d2kef2gyes9gjx.amplifyapp.com/
 
 Features
