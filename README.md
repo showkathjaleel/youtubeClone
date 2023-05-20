@@ -13,7 +13,7 @@ Features
 - Debouncing in searching for improved performance.
 - Caching the result to reduce the number of API calls
 - View video details, including title, description .
-- Early return
+- Nested routing , Early return
 - Toggling sidebar 
 
 Technologies Used
